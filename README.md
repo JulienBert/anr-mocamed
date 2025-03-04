@@ -1,2 +1,0 @@
-# anr-mocamed
-ANR MoCaMed
