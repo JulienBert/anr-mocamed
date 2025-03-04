@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet ANR MoCaMed</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        header {
+            background-color: #00276f;
+            color: #ffffff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #002c67;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #1b263b;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .logo {
+            max-width: 150px;
+            margin-top: 1rem;
+        }
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        h2 {
+            color: #003275;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ANR MoCaMed</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="partenaires.html">Partners</a>
+        <a href="publications.html">Publications</a>
+        <a href="activite.html">Activities</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2 style="text-align: center;">Advanced Monte Carlo Methods for Medical Physics</h2>
+            <img src="image-projet.jpg" alt="Image du projet" class="project-image">
+            <p>Monte Carlo (MC) simulation in medical physics is extensively used during
+                 research and development of nuclear imaging systems and treatment planning 
+                 systems in radiotherapy. However, the increasing need for detailed and accurate 
+                 simulations still leads to long simulation times. Variance Reduction Techniques (VRT) 
+                 have been developed for years but are still restricted to specific applications. 
+                 Fast GPU particle tracking methods have also been investigated but turned out to 
+                 be difficult to maintain and generalize. Hence, there are still important needs 
+                 to improve MC efficiency both in imaging and radiotherapy simulation.
+                Recent developments on asymptotic VRT such as Quasi-Monte Carlo (QMC) and Artificial 
+                Intelligence (AI) open new ways to improve MC. However, these methods are still 
+                limited to some specific applications and do not revolutionize the basis of 
+                MC simulation for medical physics. The ambition of the MoCaMed project is to design, 
+                develop and evaluate advanced Monte Carlo sampling and Deep Learning methods to 
+                improve MC simulations in medical physics. 
+                </p>
+            <div style="display: flex; justify-content: center;">
+            <img src="logo-anr.png" alt="Logo ANR" class="logo">
+            </div>
+        </section>
+    </div>
+    <!-- <footer>
+        <p>&copy; 2023 Projet ANR MoCaMed. Tous droits réservés.</p>
+    </footer> -->
+</body>
+</html>
